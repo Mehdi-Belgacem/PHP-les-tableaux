@@ -5,8 +5,9 @@
     '60' => 'Oise',
     '62' => 'Pas-De-Calais',
     '80' => 'Somme',
-    '51' => 'Marne',
   );
+  $departement['51'] = 'Marne';
+  // Autre solution -> : $departement += ['51' => 'Marne']; 
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
@@ -16,6 +17,6 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>Parti 5 Exercice 7:</h1>
+  <h1>Partie 5 Exercice 7:</h1>
 </body>
 </html>

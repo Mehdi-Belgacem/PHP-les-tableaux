@@ -15,11 +15,12 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>Parti 5 Exercice 9:</h1>
-  <?php
-    foreach ( $departement as $elements ) {
-      echo $elements . '<br/>';
-    }
-  ?>
+  <h1>Partie 5 Exercice 9:</h1>
+  <ul>
+    <?php
+      foreach ( $departement as $elements ) : ?>
+      <li><?= $elements ?></li>
+    <?php endforeach; ?>
+  </ul>
 </body>
 </html>

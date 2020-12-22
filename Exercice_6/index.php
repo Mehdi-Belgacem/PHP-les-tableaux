@@ -15,7 +15,7 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>Parti 5 Exercice 6:</h1>
+  <h1>Partie 5 Exercice 6:</h1>
   <p><?= $departement['59'] ?></p>
 </body>
 </html>

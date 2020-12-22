@@ -10,7 +10,7 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>Parti 5 Exercice 4:</h1>
+  <h1>Partie 5 Exercice 4:</h1>
   <p><?= $months[7] ?></p>
 </body>
 </html>

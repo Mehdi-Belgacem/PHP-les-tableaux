@@ -9,11 +9,12 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>Parti 5 Exercice 8</h1>
+  <h1>Partie 5 Exercice 8</h1>
+  <ul>
   <?php
-  foreach ( $months as $elements ) {
-    echo $elements . '<br/>';
-  }
-  ?>
+  foreach ( $months as $elements ) : ?>
+    <li><?= $elements ;?></li> 
+  <?php endforeach; ?>
+  </ul>
 </body>
 </html>

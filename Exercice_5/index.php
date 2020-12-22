@@ -1,5 +1,5 @@
 <?php
-  $departement = array (
+  $HautsDeFrance = array (
     '02' => 'Aisne',
     '59' => 'Nord',
     '60' => 'Oise',
@@ -15,6 +15,6 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>Parti 5 Exercice 5:</h1>
+  <h1>Partie 5 Exercice 5:</h1>
 </body>
 </html>

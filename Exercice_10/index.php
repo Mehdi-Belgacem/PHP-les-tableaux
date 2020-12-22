@@ -15,10 +15,10 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>Parti 5 Exercice 10:</h1>
+  <h1>Partie 5 Exercice 10:</h1>
   <ul>
-  <?php foreach ( $departements as $key => $departement ): ?>
-    <li><?= 'Le département ' . $departement . ' ' . 'a le numéro ' . $key . '.' ?></li>
+  <?php foreach ( $departements as $numDepartement => $departement ): ?>
+    <li><?= 'Le département ' . $departement . ' a le numéro ' . $numDepartement . '.' ?></li>
   <?php endforeach; ?>
   </ul>
 </body>
